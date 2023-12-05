@@ -1,0 +1,49 @@
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa; /* Set your desired background color */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40; /* Set your desired text color */
+  }
+  
+  /* Style the toggler button */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Set your desired color for the icon */
+  }
+  
+  /* Style the navigation links */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: #343a40; /* Set your desired text color */
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #007bff; /* Set your desired text color for hover and active states */
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 767px) {
+    .navbar-nav {
+      margin: 10px 0;
+    }
+  
+    .navbar-collapse {
+      background-color: #f8f9fa; /* Set your desired background color for the collapsed menu */
+      border: 1px solid #007bff; /* Set your desired border color for the collapsed menu */
+      border-radius: 4px;
+    }
+  }
+  
